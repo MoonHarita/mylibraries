@@ -1,16 +1,16 @@
-def sum{a,b}
+def sum(a,b)
 {
  echo "The sum of ${a} and ${b} is ${a+b}"
 }
-def sub{a,b}
+def sub(a,b)
 {
  echo "The difference of ${a} and ${b} is ${a-b}"
 }
-def prod{a,b}
+def prod(a,b)
 {
  echo "The product of ${a} and ${b} is ${a*b}"
 }
-def div{a,b}
+def div(a,b)
 {
  echo "The quotient of ${a} and ${b} is ${a/b}"
 }
